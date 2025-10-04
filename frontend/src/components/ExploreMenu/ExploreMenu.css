@@ -22,6 +22,7 @@
     text-align: center;
     margin: 20px 0px;
     overflow: scroll;
+    padding: 10px;
 }
 
 .explore-menu-list::-webkit-scrollbar{
@@ -41,6 +42,11 @@
     color: #747474;
     font-size: max(1.4vw,16px);
     cursor: pointer;
+}
+
+.explore-menu-list-item img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2)
 }
 
 .explore-menu hr{
